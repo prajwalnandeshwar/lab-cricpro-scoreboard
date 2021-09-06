@@ -1,13 +1,89 @@
 /* Type your code here */
+*{
+	margin: 4px;
+	padding: 0;
+	box-sizing: border-box;
+	font-weight: bolder;
+}
+body{
+	background-image: url("assets/bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+tr{
+	background: white;
+}
+.logo{
+	float: right;
+	padding-right: 8rem;
+}
+.head{
+	padding-top: 4rem;
+	font-weight: bolder;
+}
+.head h1{
+	font-size: 3rem;
+	text-shadow: 0 0 3px black;
+}
+.head h5{
+	font-size: 1.5rem;
+	color: grey;
+}
+.T1{
+	padding-top: 2rem;
+}
 
-
+.table1{
+	width: 50%;
+	height: 30px;
+	color: white;
+	border-collapse: collapse;
+}
+.table1 th{
+	text-align: left;
+}
+.score{
+	float:right;
+}
+table{
+	border-collapse: collapse;
+}
+.table2{
+	padding-left: 3rem;
+	width: 50%;
+	
+}
+.table2 td{
+	border-bottom: 1px solid grey;
+	padding: 8px;
+}
+.table2 th{
+background: rgb(247, 241, 241);
+text-align: left;
+border-bottom: 1px solid grey;
+padding: 8px;
+}
+.table3{
+	padding-left: 3rem;
+	width: 50%;
+	margin-top: 0;
+}
+.table3 td{
+	border-bottom: 1px solid grey;
+	padding: 8px;
+}
+.batsman{
+	color:rgb(44, 182, 236)
+}
+.out{
+	color: gray;
+}
 /* change the font family and spacing as per your project font */
 .footer{
     display:flex;
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
