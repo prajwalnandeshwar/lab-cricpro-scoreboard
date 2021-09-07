@@ -1,6 +1,6 @@
 /* Type your code here */
 *{
-	margin: 4px;
+	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-weight: bolder;
@@ -20,6 +20,7 @@ tr{
 .head{
 	padding-top: 4rem;
 	font-weight: bolder;
+	margin-left: 25px;
 }
 .head h1{
 	font-size: 3rem;
@@ -34,41 +35,27 @@ tr{
 }
 
 .table1{
-	width: 50%;
-	height: 30px;
+	height: 35px;
 	color: white;
-	border-collapse: collapse;
 }
-.table1 th{
+ th{
 	text-align: left;
+	padding: 10px;	
 }
 .score{
 	float:right;
 }
 table{
 	border-collapse: collapse;
+	font-size:20px;
+	width: 55%;
+	margin-left: 25px;
 }
-.table2{
-	padding-left: 3rem;
-	width: 50%;
-	
-}
-.table2 td{
-	border-bottom: 1px solid grey;
-	padding: 8px;
-}
+
 .table2 th{
 background: rgb(247, 241, 241);
-text-align: left;
-border-bottom: 1px solid grey;
-padding: 8px;
 }
-.table3{
-	padding-left: 3rem;
-	width: 50%;
-	margin-top: 0;
-}
-.table3 td{
+td{
 	border-bottom: 1px solid grey;
 	padding: 8px;
 }
