@@ -20,7 +20,7 @@ tr{
 .head{
 	padding-top: 4rem;
 	font-weight: bolder;
-	margin-left: 25px;
+	margin-left: 55px;
 }
 .head h1{
 	font-size: 3rem;
@@ -42,6 +42,7 @@ tr{
 	text-align: left;
 	padding: 10px;	
 }
+
 .score{
 	float:right;
 }
@@ -49,7 +50,7 @@ table{
 	border-collapse: collapse;
 	font-size:20px;
 	width: 55%;
-	margin-left: 25px;
+	margin-left: 55px;
 }
 
 .table2 th{
