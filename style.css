@@ -17,6 +17,11 @@ tr{
 	float: right;
 	padding-right: 8rem;
 }
+a{
+	color:rgb(44, 182, 236);
+	text-decoration: none;
+	cursor: pointer;
+}
 .head{
 	padding-top: 4rem;
 	font-weight: bolder;
@@ -48,7 +53,7 @@ tr{
 }
 table{
 	border-collapse: collapse;
-	font-size:20px;
+	font-size:18px;
 	width: 55%;
 	margin-left: 55px;
 }
@@ -60,9 +65,7 @@ td{
 	border-bottom: 1px solid grey;
 	padding: 8px;
 }
-.batsman{
-	color:rgb(44, 182, 236)
-}
+
 .out{
 	color: gray;
 }
